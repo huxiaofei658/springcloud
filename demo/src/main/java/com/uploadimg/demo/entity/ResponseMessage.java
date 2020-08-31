@@ -1,7 +1,6 @@
 package com.uploadimg.demo.entity;
 
-import org.omg.CORBA.PUBLIC_MEMBER;
-
+//自定义help class
 public class ResponseMessage<T> {
     private static final String CODE_SUCCESS = "200";
     private static final String CODE_FILE = "400";

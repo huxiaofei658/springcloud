@@ -25,7 +25,7 @@ public class Upload {
         if (file.isEmpty()) {
             return ResponseMessage.file("文件为空，请选择需要上传的文件");
         }
-        String filename = file.getOriginalFilename();
+        String filename = file.getOriginalFilename();/////获取文件名及后缀名
         try {
             UploadFile uf = new UploadFile();
             uf.setContent(new Binary(file.getBytes()));
