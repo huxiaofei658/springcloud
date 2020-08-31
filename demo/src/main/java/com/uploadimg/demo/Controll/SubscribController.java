@@ -23,4 +23,6 @@ public class SubscribController {
         System.out.println("进入发布系统");
         ReqMessage.publishMessage(topic, content);
     }
+
+
 }
