@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传test</title>
+</head>
+<body>
+<div align="center" style="background-color: antiquewhite">
+    <form action="/file/uploadimg" method="post" enctype="multipart/form-data">
+        选择文件: <input type="file" name="image"/><br/>
+        备注test：<input type="text" name="id"/><br/>
+        <input type="submit" name="上传"/> <input type="reset" name="重置"/><br/>
+    </form>
+</div>
+</body>
+</html>
