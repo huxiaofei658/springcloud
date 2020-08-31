@@ -1,0 +1,32 @@
+2019-09-05 03:12:02 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-09-05 03:12:02 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-09-05 03:12:02 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-09-05 03:12:02 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:
+2019-09-05 03:12:02 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-09-05 03:12:02 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-09-05 03:12:02 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-09-05 03:12:02 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-09-05 03:12:02 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-09-05 03:12:02 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:exit
+2019-09-05 03:12:02 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-09-05 03:12:02 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:97) ]
+INFO:执行实例:class cn.prism.face.service.impl.ExitCommand
+2019-09-05 03:12:02 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:101) ]
+INFO:本次操作耗时:0毫秒
+2019-09-05 03:12:02 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:109) ]
+INFO:sended:ok
+2019-09-05 03:12:02 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:110) ]
+INFO:---------------------------------------
+2019-09-05 03:12:02 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:116) ]
+INFO:服务已停止!

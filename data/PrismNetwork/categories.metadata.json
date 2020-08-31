@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"PrismNetwork.categories"},{"v":{"$numberInt":"2"},"key":{"parent":{"$numberDouble":"1.0"}},"name":"parent_1","ns":"PrismNetwork.categories"}],"uuid":"66555f18b07346a283e493d2b5fd93fb"}

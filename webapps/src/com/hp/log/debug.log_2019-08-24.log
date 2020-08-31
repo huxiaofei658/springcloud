@@ -1,0 +1,500 @@
+2019-08-24 13:51:05 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:27) ]
+INFO:算法库加载成功
+2019-08-24 13:51:08 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:58) ]
+INFO:第1次加载数据库
+2019-08-24 13:51:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:61) ]
+INFO:第1次加载成功,耗时15秒
+2019-08-24 13:51:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:64) ]
+INFO:---------------------------------------
+2019-08-24 13:51:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:70) ]
+INFO:host:127.0.1.1
+2019-08-24 13:51:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:71) ]
+INFO:port:9999
+2019-08-24 13:51:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:73) ]
+INFO:服务已启动....
+2019-08-24 13:51:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:74) ]
+INFO:---------------------------------------
+2019-08-24 13:51:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 13:52:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 13:52:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 13:52:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 13:52:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:
+2019-08-24 13:52:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 13:52:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 13:52:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 13:52:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 13:52:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 13:52:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:exit
+2019-08-24 13:52:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 13:52:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:97) ]
+INFO:执行实例:class cn.prism.face.service.impl.ExitCommand
+2019-08-24 13:52:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:101) ]
+INFO:本次操作耗时:0毫秒
+2019-08-24 13:52:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:109) ]
+INFO:sended:ok
+2019-08-24 13:52:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:110) ]
+INFO:---------------------------------------
+2019-08-24 13:52:24 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:116) ]
+INFO:服务已停止!
+2019-08-24 14:00:06 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:27) ]
+INFO:算法库加载成功
+2019-08-24 14:00:07 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:58) ]
+INFO:第1次加载数据库
+2019-08-24 14:00:26 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:61) ]
+INFO:第1次加载成功,耗时18秒
+2019-08-24 14:00:26 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:64) ]
+INFO:---------------------------------------
+2019-08-24 14:00:26 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:70) ]
+INFO:host:127.0.1.1
+2019-08-24 14:00:26 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:71) ]
+INFO:port:9999
+2019-08-24 14:00:26 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:73) ]
+INFO:服务已启动....
+2019-08-24 14:00:26 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:74) ]
+INFO:---------------------------------------
+2019-08-24 14:00:26 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 14:00:27 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 14:00:27 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 14:00:27 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 14:00:27 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:
+2019-08-24 14:00:27 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 14:00:27 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 14:00:27 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 14:00:27 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 14:00:27 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 14:00:27 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:exit
+2019-08-24 14:00:27 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 14:00:27 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:97) ]
+INFO:执行实例:class cn.prism.face.service.impl.ExitCommand
+2019-08-24 14:00:27 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:101) ]
+INFO:本次操作耗时:0毫秒
+2019-08-24 14:00:27 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:109) ]
+INFO:sended:ok
+2019-08-24 14:00:27 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:110) ]
+INFO:---------------------------------------
+2019-08-24 14:00:27 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:116) ]
+INFO:服务已停止!
+2019-08-24 14:04:05 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:27) ]
+INFO:算法库加载成功
+2019-08-24 14:04:06 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:58) ]
+INFO:第1次加载数据库
+2019-08-24 14:04:18 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:61) ]
+INFO:第1次加载成功,耗时11秒
+2019-08-24 14:04:18 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:64) ]
+INFO:---------------------------------------
+2019-08-24 14:04:18 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:70) ]
+INFO:host:127.0.1.1
+2019-08-24 14:04:18 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:71) ]
+INFO:port:9999
+2019-08-24 14:04:18 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:73) ]
+INFO:服务已启动....
+2019-08-24 14:04:18 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:74) ]
+INFO:---------------------------------------
+2019-08-24 14:04:18 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 14:06:56 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 14:06:56 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 14:06:56 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 14:06:56 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:
+2019-08-24 14:06:56 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 14:06:56 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 14:06:56 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 14:06:56 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 14:06:56 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 14:06:56 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:exit
+2019-08-24 14:06:56 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 14:06:56 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:97) ]
+INFO:执行实例:class cn.prism.face.service.impl.ExitCommand
+2019-08-24 14:06:56 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:101) ]
+INFO:本次操作耗时:0毫秒
+2019-08-24 14:06:56 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:109) ]
+INFO:sended:ok
+2019-08-24 14:06:56 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:110) ]
+INFO:---------------------------------------
+2019-08-24 14:06:56 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:116) ]
+INFO:服务已停止!
+2019-08-24 14:17:01 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:27) ]
+INFO:算法库加载成功
+2019-08-24 14:17:02 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:58) ]
+INFO:第1次加载数据库
+2019-08-24 14:17:14 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:61) ]
+INFO:第1次加载成功,耗时11秒
+2019-08-24 14:17:14 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:64) ]
+INFO:---------------------------------------
+2019-08-24 14:17:14 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:70) ]
+INFO:host:127.0.1.1
+2019-08-24 14:17:14 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:71) ]
+INFO:port:9999
+2019-08-24 14:17:14 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:73) ]
+INFO:服务已启动....
+2019-08-24 14:17:14 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:74) ]
+INFO:---------------------------------------
+2019-08-24 14:17:14 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 14:18:02 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 14:18:02 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 14:18:02 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 14:18:02 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:
+2019-08-24 14:18:02 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 14:18:02 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 14:18:02 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 14:18:02 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 14:18:02 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 14:18:02 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:exit
+2019-08-24 14:18:02 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 14:18:02 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:97) ]
+INFO:执行实例:class cn.prism.face.service.impl.ExitCommand
+2019-08-24 14:18:02 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:101) ]
+INFO:本次操作耗时:0毫秒
+2019-08-24 14:18:02 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:109) ]
+INFO:sended:ok
+2019-08-24 14:18:02 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:110) ]
+INFO:---------------------------------------
+2019-08-24 14:18:02 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:116) ]
+INFO:服务已停止!
+2019-08-24 14:27:34 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:27) ]
+INFO:算法库加载成功
+2019-08-24 14:27:35 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:58) ]
+INFO:第1次加载数据库
+2019-08-24 14:27:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:61) ]
+INFO:第1次加载成功,耗时11秒
+2019-08-24 14:27:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:64) ]
+INFO:---------------------------------------
+2019-08-24 14:27:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:70) ]
+INFO:host:127.0.1.1
+2019-08-24 14:27:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:71) ]
+INFO:port:9999
+2019-08-24 14:27:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:73) ]
+INFO:服务已启动....
+2019-08-24 14:27:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:74) ]
+INFO:---------------------------------------
+2019-08-24 14:27:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 14:28:25 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 14:28:25 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 14:28:25 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 14:28:25 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:
+2019-08-24 14:28:25 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 14:28:25 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 14:28:25 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 14:28:25 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 14:28:25 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 14:28:25 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:exit
+2019-08-24 14:28:25 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 14:28:25 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:97) ]
+INFO:执行实例:class cn.prism.face.service.impl.ExitCommand
+2019-08-24 14:28:25 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:101) ]
+INFO:本次操作耗时:0毫秒
+2019-08-24 14:28:25 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:109) ]
+INFO:sended:ok
+2019-08-24 14:28:25 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:110) ]
+INFO:---------------------------------------
+2019-08-24 14:28:25 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:116) ]
+INFO:服务已停止!
+2019-08-24 14:35:27 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:27) ]
+INFO:算法库加载成功
+2019-08-24 14:35:28 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:58) ]
+INFO:第1次加载数据库
+2019-08-24 14:35:40 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:61) ]
+INFO:第1次加载成功,耗时11秒
+2019-08-24 14:35:40 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:64) ]
+INFO:---------------------------------------
+2019-08-24 14:35:40 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:70) ]
+INFO:host:127.0.1.1
+2019-08-24 14:35:40 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:71) ]
+INFO:port:9999
+2019-08-24 14:35:40 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:73) ]
+INFO:服务已启动....
+2019-08-24 14:35:40 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:74) ]
+INFO:---------------------------------------
+2019-08-24 14:35:40 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 15:00:19 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 15:00:19 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 15:00:19 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 15:00:19 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:
+2019-08-24 15:00:19 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 15:00:19 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 15:00:19 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 15:00:19 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 15:00:19 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 15:00:19 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:exit
+2019-08-24 15:00:19 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 15:00:19 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:97) ]
+INFO:执行实例:class cn.prism.face.service.impl.ExitCommand
+2019-08-24 15:00:19 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:101) ]
+INFO:本次操作耗时:0毫秒
+2019-08-24 15:00:19 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:109) ]
+INFO:sended:ok
+2019-08-24 15:00:19 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:110) ]
+INFO:---------------------------------------
+2019-08-24 15:00:19 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:116) ]
+INFO:服务已停止!
+2019-08-24 15:04:03 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:27) ]
+INFO:算法库加载成功
+2019-08-24 15:04:04 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:58) ]
+INFO:第1次加载数据库
+2019-08-24 15:04:16 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:61) ]
+INFO:第1次加载成功,耗时11秒
+2019-08-24 15:04:16 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:64) ]
+INFO:---------------------------------------
+2019-08-24 15:04:16 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:70) ]
+INFO:host:127.0.1.1
+2019-08-24 15:04:16 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:71) ]
+INFO:port:9999
+2019-08-24 15:04:16 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:73) ]
+INFO:服务已启动....
+2019-08-24 15:04:16 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:74) ]
+INFO:---------------------------------------
+2019-08-24 15:04:16 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 15:21:11 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 15:21:11 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 15:21:11 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 15:21:11 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:
+2019-08-24 15:21:11 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 15:21:11 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 15:21:11 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 15:21:11 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 15:21:11 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 15:21:11 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:exit
+2019-08-24 15:21:11 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 15:21:11 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:97) ]
+INFO:执行实例:class cn.prism.face.service.impl.ExitCommand
+2019-08-24 15:21:11 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:101) ]
+INFO:本次操作耗时:0毫秒
+2019-08-24 15:21:11 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:109) ]
+INFO:sended:ok
+2019-08-24 15:21:11 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:110) ]
+INFO:---------------------------------------
+2019-08-24 15:21:11 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:116) ]
+INFO:服务已停止!
+2019-08-24 15:22:45 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:27) ]
+INFO:算法库加载成功
+2019-08-24 15:22:46 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:58) ]
+INFO:第1次加载数据库
+2019-08-24 15:22:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:61) ]
+INFO:第1次加载成功,耗时0秒
+2019-08-24 15:22:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:64) ]
+INFO:---------------------------------------
+2019-08-24 15:22:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:70) ]
+INFO:host:127.0.1.1
+2019-08-24 15:22:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:71) ]
+INFO:port:9999
+2019-08-24 15:22:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:73) ]
+INFO:服务已启动....
+2019-08-24 15:22:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:74) ]
+INFO:---------------------------------------
+2019-08-24 15:22:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 15:57:31 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 15:57:31 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 15:57:31 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 15:57:31 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:
+2019-08-24 15:57:31 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 15:57:31 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 15:57:31 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 15:57:31 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 15:57:31 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 15:57:31 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:exit
+2019-08-24 15:57:31 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 15:57:31 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:97) ]
+INFO:执行实例:class cn.prism.face.service.impl.ExitCommand
+2019-08-24 15:57:31 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:101) ]
+INFO:本次操作耗时:0毫秒
+2019-08-24 15:57:31 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:109) ]
+INFO:sended:ok
+2019-08-24 15:57:31 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:110) ]
+INFO:---------------------------------------
+2019-08-24 15:57:31 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:116) ]
+INFO:服务已停止!
+2019-08-24 16:12:31 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:27) ]
+INFO:算法库加载成功
+2019-08-24 16:12:33 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:58) ]
+INFO:第1次加载数据库
+2019-08-24 16:12:46 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:61) ]
+INFO:第1次加载成功,耗时13秒
+2019-08-24 16:12:46 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:64) ]
+INFO:---------------------------------------
+2019-08-24 16:12:46 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:70) ]
+INFO:host:127.0.1.1
+2019-08-24 16:12:46 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:71) ]
+INFO:port:9999
+2019-08-24 16:12:46 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:73) ]
+INFO:服务已启动....
+2019-08-24 16:12:46 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:74) ]
+INFO:---------------------------------------
+2019-08-24 16:12:46 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 16:13:39 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 16:13:39 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 16:13:39 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 16:13:39 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:
+2019-08-24 16:13:39 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 16:13:39 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 16:13:39 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 16:13:39 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 16:13:39 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 16:13:39 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:exit
+2019-08-24 16:13:39 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 16:13:39 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:97) ]
+INFO:执行实例:class cn.prism.face.service.impl.ExitCommand
+2019-08-24 16:13:39 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:101) ]
+INFO:本次操作耗时:0毫秒
+2019-08-24 16:13:39 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:109) ]
+INFO:sended:ok
+2019-08-24 16:13:39 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:110) ]
+INFO:---------------------------------------
+2019-08-24 16:13:39 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:116) ]
+INFO:服务已停止!
+2019-08-24 16:15:34 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:27) ]
+INFO:算法库加载成功
+2019-08-24 16:15:35 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:58) ]
+INFO:第1次加载数据库
+2019-08-24 16:15:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:61) ]
+INFO:第1次加载成功,耗时11秒
+2019-08-24 16:15:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:64) ]
+INFO:---------------------------------------
+2019-08-24 16:15:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:70) ]
+INFO:host:127.0.1.1
+2019-08-24 16:15:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:71) ]
+INFO:port:9999
+2019-08-24 16:15:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:73) ]
+INFO:服务已启动....
+2019-08-24 16:15:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:74) ]
+INFO:---------------------------------------
+2019-08-24 16:15:47 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 16:15:55 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 16:15:55 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 16:15:55 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 16:15:55 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:
+2019-08-24 16:15:55 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 16:15:55 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
+2019-08-24 16:15:55 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:87) ]
+INFO:接收数据---------------------------------
+2019-08-24 16:15:55 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:88) ]
+INFO:host:127.0.0.1
+2019-08-24 16:15:55 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:89) ]
+INFO:port:6666
+2019-08-24 16:15:55 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:91) ]
+INFO:data:exit
+2019-08-24 16:15:55 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:92) ]
+INFO:---------------------------------------
+2019-08-24 16:15:55 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:97) ]
+INFO:执行实例:class cn.prism.face.service.impl.ExitCommand
+2019-08-24 16:15:55 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:101) ]
+INFO:本次操作耗时:0毫秒
+2019-08-24 16:15:55 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:109) ]
+INFO:sended:ok
+2019-08-24 16:15:55 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:110) ]
+INFO:---------------------------------------
+2019-08-24 16:15:55 PM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:116) ]
+INFO:服务已停止!

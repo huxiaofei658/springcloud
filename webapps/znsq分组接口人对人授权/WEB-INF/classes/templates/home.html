@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-cn" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <style>
+    table {
+    text-align: center;
+    border-collapse: collapse;
+    padding: 2px;
+    }
+    </style>
+</head>
+<body>
+<p>
+    <a href="add"target="_blank">创建模板</a>
+    &nbsp;&nbsp;
+    <a href="test" target="_blank">测试模板</a>
+</p>
+<table cellpadding="7">
+    <thead>
+        <td>编码</td>
+        <td>描述</td>
+        <td>表名</td>
+        <td>类型</td>
+        <td>模板</td>
+        <td>创建时间</td>
+        <td>最后修改时间</td>
+        <td>操作</td>
+    </thead>
+
+    <tbody>
+    <!--/*@thymesVar id="templateList" type="java.util.List"*/-->
+    <tr th:each="template:${templateList}">
+        <td th:text="${template.qid}"></td>
+        <td th:text="${template.comm}"></td>
+        <td th:text="${template.table}"></td>
+        <td th:text="${template.type}"></td>
+        <td th:text="${template.query}"></td>
+        <td th:text="${template.createDate}"></td>
+        <td th:text="${template.updateDate}"></td>
+        <td>
+            <a th:href="@{findById(qid=${template.qid})}" target="_blank">编辑</a>
+            &nbsp;&nbsp;
+            <a th:href="@{deleteTemplate(qid=${template.qid})}">删除</a>
+        </td>
+        </tbody>
+    </tr>
+</table>
+</body>
+</html>

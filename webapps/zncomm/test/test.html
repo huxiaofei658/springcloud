@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>云信Web测试</title>
+	<script src="jquery.min.js"></script>
+	<script src="NIM_Web_NIM_v4.2.0.js"></script>
+	
+	<script>
+	$(function () {	
+		$.ajax({
+            url : "https://api.netease.im/nimserver/user/update.action",
+            headers: {
+            	AppKey:"",
+            	Nonce:"123456",
+            	CurTime:(new Date()).getTime() / 1000+"",
+            	checkSum:
+            	Content-Type: "application/x-www-form-urlencoded;charset=utf-8"
+            },
+            dataType : "json",  
+            type : "POST",  
+        	data: {accid:"test1"}, 
+            success : function(data) {
+                if(data && data.length>0) {  
+                	for(var i=0;i<data.length;i++){
+                		data[i].id= data[i]._id;
+                		data[i].text=data[i].name;
+                		data[i].children=true;
+                	}
+                }
+                callback.call(this, data); 
+            } ,
+            error: function(e){
+            	console.log(e);
+            }
+        }); 
+	});
+	var nim = new NIM({
+    // 初始化SDK
+    // debug: true
+    appKey: '4acd7e2ef2608f668310c12da3cf9b12',
+    account: 'test1',
+    token: '53f5843d033c772894c37da4d24d98e2',
+    onconnect: onConnect,
+    onerror: onError,
+	});
+	function onConnect() {
+    console.log('连接成功');
+}
+function onError(error, obj) {
+    console.log('发生错误', error, obj);
+}
+		nim.getFriends({
+			done: getFriendsDone
+		});
+	function getFriendsDone(error, friends) {
+		console.log('获取好友列表' + (!error?'成功':'失败'), error, friends);
+		if (!error) {
+			onFriends(friends);
+		}
+	}
+	</script>
+</head>
+<body></body>
+</html>

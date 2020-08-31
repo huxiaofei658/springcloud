@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			html{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			@media only screen and (max-width: 500px) {
+    body {
+        
+    }
+}
+	@media only screen and (min-width: 1200px) {
+    body {
+        
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+#weixinStyle{ width:100%; display:none; text-align:center; font-size:16px; padding-top:50px;}
+			/*p{
+				font-size: 1.1em;
+			}*/
+		</style>
+	</head>
+	<body>
+		<div id="weixinStyle">
+提示：请点击右上角，选择“用浏览器打开”
+</div>
+		<div id="box" style="margin: 0 auto; width: 100%; height: auto;">
+			
+			<img src="images/xh.jpg" style=" width: 100%; height: 100%; margin: 10px auto; display: block;" />
+			<p style=" width: 100%; margin: 20px auto; text-align: center; font-size: 22px; font-weight: bold;">宝鸡市网络安全协会会员招募公告</p>
+			<p style="width: 100%; margin: 0 auto;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“宝鸡市网络安全协会”是经宝鸡市民政局审批，由宝鸡市网络信息办公室监督成立，简称“宝鸡网协”。在响应政府号召：“网络安全，就是国家安全”。为加大企业和个人对网络安全的重视和防范，有效管控和监督维护网络安全事件，避免造成不良社会影响和经济损失。承担宝鸡市网络安全相关政策宣传、技术服务、科学研究、学术交流等活动，协助行业主管部门提高我市信息网络安全保护水平，维护社会稳定和安定团结。</p>
+<p style="width: 100%; padding-left: 3%; font-weight: bold;">现就“宝鸡市网络安全协会”单位会员及个人会员招募通知如下：</p>
+<p style="padding-left: 3%;">1、承认本会章程；<br />
+2、自愿加入本会，积极参加协会活动；<br />
+3、在本会的业务相关学科领域内具有一定的影响，有志在信息网络安全领域从事有益的工作；<br />
+4、申请时间：2019年2月15日~2019年2月25日<br />
+（注：申请表下载地址：               其他相关事宜来电咨询）</p>
+<p style="padding-left: 3%; font-weight: bold;">宝鸡网协筹备组：</p>
+<p style="padding-left: 3%;">联 系 人：谭女士 13772640008<br />
+联系电话：0917-3655110、0917-2600026/2600666 <br />  
+邮    箱：280856480@qq.com<br />
+联系地址：宝鸡市高新大道195号科技创新园C座1楼</p>
+
+			<!--<div style="margin-top: 20px;">会员入会申请表下载
+				<a href="个人会员入会申请表.docx" download="个人会员" style="float: right; text-decoration: none; color: #fff; padding: 10px; background-color: #00479d; margin-right: 10%; border-radius: 10px;">个人会员</a></p>
+				<a href="单位会员入会申请表.docx" download="单位会员" style="float: right; text-decoration: none; color: #fff; padding: 10px; background-color: #00479d; margin-right: 10%; border-radius: 10px;">单位会员</a></p>
+			</div>-->
+			<div style="width: 90%; margin: 30px auto;">
+	
+	    <p style="width: 100%; margin-top: 10px;">附表1:个人会员入会申请表
+		<a href="个人会员入会申请表.docx" download="个人会员" style=" text-decoration: none; padding-left: 5px;">点击下载</a></p>
+		<p style="width: 100%; margin-top: 10px;">附表2:单位会员入会申请表
+		<a href="单位会员入会申请表.docx" download="单位会员" style=" text-decoration: none; padding-left: 5px;">点击下载</a></p>
+
+
+
+</div>
+		
+
+		</div>
+		<script type="text/javascript">
+    //获取id为weixinStyle的div对象
+    var weixin=document.getElementById("weixinStyle");
+    //网页加载后执行函数
+    window.onload=function(){
+        //判断是否为微信内核 是 则显示引导图标 否则 不显示直接下载
+        if(isWeixin()){
+            //是微信打开显示提示信息
+            weixin.style.display="block";   
+        }else{
+            //是非微信打开直接跳转下载地址
+            location.href("bnsa.html");//这里的‘网络下载地址’要改成实际地址 
+        }
+    }
+
+    //这个函数用来判断当前浏览器是否微信内置浏览器，是微信返回true，不是微信返回false
+    function isWeixin(){
+        var WxObj=window.navigator.userAgent.toLowerCase();
+        if(WxObj.match(/microMessenger/i)=='micromessenger'){
+            return true;
+        }else{
+          return false;
+        }
+    }
+</script>
+	</body>
+</html>

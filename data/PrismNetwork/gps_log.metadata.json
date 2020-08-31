@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"PrismNetwork.gps_log"}],"uuid":"c7a1e4d2edbb495396aba5fc22cf5a4c"}

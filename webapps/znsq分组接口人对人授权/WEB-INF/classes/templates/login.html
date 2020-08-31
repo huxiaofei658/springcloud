@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh-cn" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body>
+<!--/*@thymesVar id="error" type="java.lang.String"*/-->
+<p th:text="${error}"></p>
+<form action="login" method="post">
+    <input type="text" name="code" placeholder="请输入开发者账号" required autofocus>
+    <input type="text" name="password" placeholder="请输入开发者密码" required>
+    <input type="submit" value="登录">
+</form>
+</body>
+</html>

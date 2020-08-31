@@ -1,0 +1,57 @@
+spring:
+  profiles:
+    active: test
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  data:
+    mongodb:
+      host: 111.21.158.98
+      #host: 192.168.0.131
+      port: 27888
+      #port: 27017
+      database: PrismNetwork
+      username: Prism
+      password: Prism
+  http:
+   multipart:
+     max-file-size: 10MB
+     max-request-size: 100MB
+#项目配置信息
+config:
+  #百度人脸识别配置信息
+ faceConfig:
+   #组编码
+    groupId: zn
+    #API KEY
+    AK: GamGaqMiZq04RU0YGP1WEaBc
+    SK: VKjZHeXWxtGRiNKGpbsNtsDu02mZinoE
+    #相似度，如果搜索到的人脸与请求的人脸相似度大于80时认为是同一个人
+    score: 80.0
+    #请求人脸的相关URL
+    url:
+      add: https://aip.baidubce.com/rest/2.0/face/v3/faceset/user/add
+      delete: https://aip.baidubce.com/rest/2.0/face/v3/faceset/face/delete
+      search: https://aip.baidubce.com/rest/2.0/face/v3/search
+      match: https://aip.baidubce.com/rest/2.0/face/v3/match #人脸对比
+      detect: https://aip.baidubce.com/rest/2.0/face/v3/detect #人脸检测
+      upload: https://www.prismnetwork.cn/znface/uplodFaces
+      #upload: http://111.21.158.98:8086/znface/uplodFaces
+ upload:
+   windows: D://prism/upload/
+   linux: /prism/upload/
+ tokenConfig:
+   excludePath: /error,/login,/reg,/test,/authError,/authToken,/sendCode,/tokenCode,/template/**,/sendSMS #拦截器忽略的路径
+   headName: token
+   issuer: 棱镜网络 #发证单位
+   #查询模板配置
+ templateConfig:
+   token: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJjbGllbnQiLCJpYXQiOjMwLCJzdWIiOiJjKysmamF2YSIsImlzcyI6IuajsemVnOe9kee7nCIsImV4cCI6MjQ5MjM4ODIwNH0.i-9IzKdd5L0uFXqZbLsKfeikT-ab6RzRMSyr4qVVBxI
+   placeholder: ^
+   url: https://www.prismnetwork.cn/zncomm/ws/common/
+   excludePath: /template/login
+ excelConfig:
+   picLink: https://www.prismnetwork.cn/znsq/static/uplod/ #excel照片查看路径

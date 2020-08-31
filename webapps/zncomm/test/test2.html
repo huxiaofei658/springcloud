@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<input type="text" id="pageSize">
+	<button>提交</button>
+	<body>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+
+	<script>
+
+		$(function () {
+			$(":button").click(function () {
+				var data =
+						[
+							{ $match : { mobile : { $eq :"18667911171" } } },
+							{$project: {
+									"username":1,
+									"AuthorizationRelationship": {
+										$filter: {
+											input: "$AuthorizationRelationship",
+											as: "item",
+											cond: {
+												$eq: [ '$$item.AuthorizationPass', '123456' ]
+											}
+										}
+									}
+								}}]
+
+				$.ajax({
+					type: "POST",
+					url: 'http://localhost/zncomm/ws/common/aggregate/zn_user',
+					//url: 'http://localhost:8081/zncomm/ws/common/find/zn_user',
+					contentType: "application/json;charset=utf-8",
+					data :JSON.stringify(data),
+					dataType: "json",
+					headers:{
+						"token":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxODY2NzkxMTE3MSIsImlhdCI6MzAsInN1YiI6IjE4NjY3OTExMTcxIiwiaXNzIjoi5qOx6ZWc572R57ucIiwiZXhwIjoxNTcwMTU1ODgyfQ.QQPuntl4FKFC9ey8IIbt60KkurnzVyyKA1K_90IMnE4"
+					},
+					success: function (data) {
+						console.log(data);
+
+					},error:function(error){
+						console.log(error);
+					}
+				});
+			});
+		});
+
+		</script>
+	</body>
+</html>

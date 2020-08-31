@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-cn" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <!--/*@thymesVar id="title" type="java.lang.String"*/-->
+    <title th:text="${title}"></title>
+</head>
+<body>
+<!--/*@thymesVar id="action" type="java.lang.String"*/-->
+<form th:action="${action}">
+    <!--/*@thymesVar id="template" type="cn.uplod.uplod.pojo.QueryTemplate"*/-->
+    <div th:object="${template}">
+        模板编码：<input type="text" name="qid" th:value="*{qid}" readonly><br>
+        描述：<textarea rows="5" cols="20" name="comm" th:text="*{comm}" required></textarea><br/>
+        表名：<input type="text" name="table" th:value="*{table}" required/><br/>
+        类型：
+        <select name="type" required>
+            <!--/*@thymesVar id="types" type="java.util.List"*/-->
+            <option th:each="type1 : ${types}" th:value="${type1}" th:selected="${template.type eq type1}" th:text="${type1}"></option>
+        </select>
+        <br/>
+        <p>模板占位符为<span style="color: red">^</span>,例如：{filter:{"mobile":"^","username":"^"}}，查询增删改查语法请查看增删改查文档</p>
+        模板：<textarea rows="5" cols="20" name="query" th:text="*{query}" required></textarea><br/>
+        <!--/*@thymesVar id="title" type="java.lang.String"*/-->
+        <input type="submit" th:value="${title}">
+    </div>
+</form>
+</body>
+</html>

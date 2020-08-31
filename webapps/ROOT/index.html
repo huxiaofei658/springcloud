@@ -1,0 +1,1094 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="" />
+<!-- css files -->
+<!--服务范围-->
+<link rel="stylesheet" type="text/css" href="css/style_index.css"/>
+
+<link rel="stylesheet" href="css/index.css" type="text/css"/>
+<!--服务范围-->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link rel="stylesheet" href="css/css.css" />
+<link rel="stylesheet" href="css/team.css" />
+<link rel="stylesheet" type="text/css" href="css/page.css"/>
+<link rel="stylesheet" href="css/fhdb.css">
+	<!--<link rel="stylesheet" href="css/fh.css" />-->
+<!--荣誉-->
+<link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/certify.css">
+    <!--荣誉-->
+<!-- /css files -->
+<!-- font files -->
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<!-- /font files -->
+<!--anli-->
+<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" />
+	<link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="css/demo.css"><!--可无视-->
+	
+	<style type="text/css">
+		.demo{
+			padding: 2em 0;
+		}
+		.box{
+		    font-family: 'Montserrat', sans-serif;
+		    overflow: hidden;
+		    position: relative;
+		}
+		.box:before{
+		    content: '';
+		    background-color: rgba(255,255,255,0.7);
+		    opacity: 0;
+		    position: absolute;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    top: 0;
+		    z-index: 1;
+		    transition: all 0.3s ease 0.1s;
+		}
+		.box:hover:before{
+		    left: 15px;
+		    right: 15px;
+		    bottom: 15px;
+		    top: 15px;
+		    opacity: 1;
+		    animation:bounce-left 1s ease-in forwards;
+		}
+		.box img{
+		    width: 100%;
+		    height: auto;
+		    transition: all 0.3s ease 0s;
+		    padding-bottom: 10px;
+		}
+		.box:hover img{ transform: scale(1.5); }
+		.box .box-content{
+		    color: #fff;
+		    text-align: center;
+		    width: 100%;
+		    height: 100%;
+		    transform:translateX(-50%) translateY(-50%) scale(1);
+		    position: absolute;
+		    left: 50%;
+		    top: 50%;
+		    z-index: 2;
+		    transition:all 0.3s ease 0.5s;
+		}
+		.box .content{
+		    opacity: 0;
+		    transform:translateX(-50%) translateY(-50%);
+		    position: absolute;
+		    left:50%;
+		    top:50%;
+		    z-index: 2;
+		    transition:all 0.3s ease 0s;
+		}
+		.box:hover .content{ opacity: 1; }
+		.box .title{
+		    color: #ff3a6f;
+		    font-size: 22px;
+		    font-weight: 600;
+		    text-transform: uppercase;
+		    transform: translateY(-500px);
+		    opacity: 0;
+		    transition:all 0.8s ease 0.3s;
+		}
+		.box .post{
+		    color: #000;
+		    font-size:15px;
+		    font-weight: 500;
+		    letter-spacing: 1px;
+		    text-transform: capitalize;
+		    display: inline-block;
+		    margin-bottom: 10px;
+		    opacity: 0;
+		    transform:translateY(-500px);
+		    transition:all 0.8s ease 0.15s;
+		}
+		.box:hover .title,
+		.box:hover .post{
+		    opacity: 1;
+		    transform:translateY(0);
+		}
+		.box .icon{
+		    list-style: none;
+		    text-align: center;
+		    padding: 0;
+		    margin: 0;
+		}
+		.box .icon li{
+		    margin:0 4px;
+		    opacity: 0;
+		    display: inline-block;
+		    transform: translateY(-200px);
+		    transition: all 0.8s ease 0s;
+		}
+		.box .icon li:nth-child(2){ transition-delay: 0.1s; }
+		.box:hover .icon li{
+		    opacity: 1;
+		    transform: translateY(0);
+		}
+		.box .icon li a{
+		    color: #fff;
+		    background-color: #0eb1dc;
+		    font-size: 18px;
+		    line-height: 33px;
+		    height: 35px;
+		    width: 35px;
+		    border: 2px solid #fff;
+		    border-radius: 50%;
+		    display: block;
+		    transition: all 0.3s ease 0s;
+		}
+		.box .icon li a:hover{
+		    color: #fff;
+		    background-color: #ff3a6f;
+		    box-shadow: 0 0 15px #ff3a6f;
+		}
+		@keyframes bounce-left{
+		    25%,50%,75%,100%{ transform:translateX(0); }
+		    40%{ transform:translateX(30px); }
+		    70%{ transform:translateX(15px); }
+		    90%{ transform:translateX(5px); }
+		}
+		@media only screen and (max-width:990px){
+		    .box{ margin-bottom: 30px; }
+		}
+		@media only screen and (max-width:479px){
+		    .box .title{ font-size: 18px; }
+		}
+	</style>
+<!--anli-->
+<!-- js files -->
+<script src="js/modernizr.custom.js"></script>
+<!-- /js files -->
+<script src="js/jquery-2.2.3.min.js"></script>
+
+<style>
+	
+@font-face {
+	font-family:ft;
+	src: url("fonts/STHUPO.TTF");
+}
+</style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<div class="navbar-wrapper">
+    <div class="container">
+		<nav class="navbar navbar-inverse navbar-static-top cl-effect-20">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html" style="font-family: 'ft'; font-size: 33px;">棱镜网络</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse navbar-right">
+					<ul class="nav navbar-nav">
+						<!--<li><a href="#"><span data-hover="Home">Home</span></a></li>-->
+						<li><a href="#about"><span data-hover="关于我们">关于我们</span></a></li>
+						<li><a href="#services"><span data-hover="服务领域">服务领域</span></a></li>
+						<li><a href="#events"><span data-hover="新闻动态">新闻动态</span></a></li>
+						<li><a href="#gallery"><span data-hover="经典案例">经典案例</span></a></li>
+						<li><a href="#team"><span data-hover="核心团队">核心团队</span></a></li>
+						<li><a href="#fanwei"><span data-hover="服务范围">服务范围</span></a></li>
+						<li><a href="#contact"><span data-hover="联系我们">联系我们</span></a></li>
+					</ul>
+				</div>
+			<!--	<img src="images/logo_2.png" style="width: 160px; height: 80px; margin-top: 10px; margin-right: 10px; float: right;"/>-->
+			</div>
+        </nav>
+    </div>
+</div>
+<!-- Banner Section -->
+<!-- Carousel
+    ================================================== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+			<img class="first-slide" src="images/banner1.png" alt="First slide">
+        </div>
+        <div class="item">
+			<img class="second-slide" src="images/banner2.png" alt="Second slide">
+        </div>
+        <div class="item">
+			<img class="third-slide" src="images/banner3.png" alt="Third slide">
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div><!-- /.carousel -->
+<!-- /Banner Section -->
+<!-- About Section -->
+<section class="about-us" id="about">
+	<h3 class="text-center slideanim font" style="color: #000000;">陕西棱镜网络科技有限公司</h3>
+	<p class="text-center slideanim" style="color: #212121;">致力于成为行业领先的智能控制系统解决方案提供者</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6">
+				<img src="images/about.jpg" alt="about" class="img-responsive slideanim">
+					
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6">
+				<div class="about-info">
+					<h4 class="slideanim" style="color: #000000;">公司简介</h4>
+					<!--<p class="abt slideanim"></p>-->
+					<p class="abt slideanim" style="color: #212121;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;棱镜网络成立于2015年2月，致力于成为行业领先的智能控制系统解决方案提供者，我们提供基于原创的人工智能神经网络识别系统、物联网接入系统、大数据云存储解决方案、人工智能控制系统等，高新技术集成于新产品研发是我们努力的目标。棱镜团队拥有丰富的高技术人才储备，在算法、编程、智能控制等行业丰富的经验，得益于我们在图像识别于智能控制及自动化编程方面取得的成果，棱镜将为更多的行业提供前沿技术及智能化集成解决方案。
+</p>
+				     <p class="abt slideanim" style="color: #222222;"><a href="gsfz.html" style="text-decoration: none; font-weight: bold;">关于棱镜</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="gsfz.html" style="text-decoration: none; font-weight: bold;">企业发展史</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	<!--荣誉-->
+<div id="certify">
+<div class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide"><a href="ryzz.html"><img src="images/y1.jpg" /></a></div>
+<div class="swiper-slide"><a href="ryzz.html"><img src="images/y2.jpg" /></a></div>
+<div class="swiper-slide"><a href="ryzz.html"><img src="images/y3.jpg" /></a></div>
+<div class="swiper-slide"><a href="ryzz.html"><img src="images/y4.jpg" /></a></div>
+<div class="swiper-slide"><a href="ryzz.html"><img src="images/y5.jpg" /></a></div>
+<div class="swiper-slide"><a href="ryzz.html"><img src="images/y6.jpg" /></a></div>
+<div class="swiper-slide"><a href="ryzz.html"><img src="images/y7.jpg" /></a></div>
+</div>
+</div>
+<!--<div class="swiper-pagination"></div>-->
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+</div>
+<script src="js/swiper.min.js"></script>
+<script>
+certifySwiper = new Swiper('#certify .swiper-container', {
+	watchSlidesProgress: true,
+	slidesPerView: 'auto',
+	centeredSlides: true,
+	loop: true,
+	loopedSlides: 5,
+	autoplay: true,
+	navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	},
+	pagination: {
+		el: '.swiper-pagination',
+		//clickable :true,
+	},
+	on: {
+		progress: function(progress) {
+			for (i = 0; i < this.slides.length; i++) {
+				var slide = this.slides.eq(i);
+				var slideProgress = this.slides[i].progress;
+				modify = 1;
+				if (Math.abs(slideProgress) > 1) {
+					modify = (Math.abs(slideProgress) - 1) * 0.3 + 1;
+				}
+				translate = slideProgress * modify * 260 + 'px';
+				scale = 1 - Math.abs(slideProgress) / 5;
+				zIndex = 999 - Math.abs(Math.round(10 * slideProgress));
+				slide.transform('translateX(' + translate + ') scale(' + scale + ')');
+				slide.css('zIndex', zIndex);
+				slide.css('opacity', 1);
+				if (Math.abs(slideProgress) > 3) {
+					slide.css('opacity', 0);
+				}
+			}
+		},
+		setTransition: function(transition) {
+			for (var i = 0; i < this.slides.length; i++) {
+				var slide = this.slides.eq(i)
+				slide.transition(transition);
+			}
+
+		}
+	}
+
+})
+</script>
+<!-- /About Section -->
+<!-- Services Section -->
+<section>
+	<div id="services" class="gallery">  
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3 style="font-size:35px;font-weight:normal;padding:20px 0;font-family: 'Montserrat', sans-serif; text-align: center; color: white;">服务领域</h3>
+	<p style="font-size:18px;font-weight:300;padding:10px 0 50px; text-align: center; color: white;">态度决定一切，细节决定成败</p>
+				
+				<div class="clearfix"> </div>
+			</div> 
+		</div>
+		<div class="agileinfo-gallery-row">
+			<div class="col-md-3 col-sm-3 col-xs-6 w3gallery-grids" style="position: relative;">
+				<a href="service.html" class="imghvr-hinge-right figure">
+					<img src="images/img6.jpg" alt="" title="Smart Buzz Image"/>
+					<div class="agile-figcaption">
+					  <h4>人工智能</h4>
+					  <p>开放式社区人工智能安保系统</p>
+					</div>
+				</a> 
+			</div> 
+			<div class="col-md-3 col-sm-3 col-xs-6 w3gallery-grids">
+				<a href="service.html" class="imghvr-hinge-right figure">
+					<img src="images/img5.jpg" alt="" title="Smart Buzz Image"/> 
+					<div class="agile-figcaption">
+					  <h4>物联网</h4>
+					  <p>物联网接入系统</p>
+					</div>
+				</a> 
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6 w3gallery-grids">
+				<a href="service.html" class="imghvr-hinge-right figure">
+					<img src="images/img7.jpg" alt="" title="Smart Buzz Image"/> 
+					<div class="agile-figcaption">
+					  <h4>大数据</h4>
+					  <p>大数据云存储解决方案</p>
+					</div>
+				</a> 
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6 w3gallery-grids">
+				<a href="service.html" class="imghvr-hinge-right figure">
+					<img src="images/img8.jpg" alt="" title="Smart Buzz Image"/> 
+					<div class="agile-figcaption">
+					  <h4>机器人</h4>
+					  <p>人工智能控制系统</p>
+					</div>
+				</a> 
+			</div>
+			<!--<div class="col-md-3 col-sm-3 col-xs-6 w3gallery-grids">
+				<a href="images/img1.jpg" class="imghvr-hinge-right figure">
+					<img src="images/img1.jpg" alt="" title="Smart Buzz Image"/> 
+					<div class="agile-figcaption">
+					  <h4>Smart Buzz</h4>
+					  <p>Phasellus elementum ullamcorper urna, eu rhoncus.</p>
+					</div>
+				</a> 
+			</div> 
+			<div class="col-md-3 col-sm-3 col-xs-6 w3gallery-grids">
+				<a href="images/img2.jpg" class="imghvr-hinge-right figure">
+					<img src="images/img2.jpg" alt="" title="Smart Buzz Image"/> 
+					<div class="agile-figcaption">
+					  <h4>Smart Buzz</h4>
+					  <p>Phasellus elementum ullamcorper urna, eu rhoncus.</p>
+					</div>
+				</a> 
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6 w3gallery-grids">
+				<a href="images/img3.jpg" class="imghvr-hinge-right figure">
+					<img src="images/img3.jpg" alt="" title="Smart Buzz Image"/> 
+					<div class="agile-figcaption">
+					  <h4>Smart Buzz</h4>
+					  <p>Phasellus elementum ullamcorper urna, eu rhoncus.</p>
+					</div>
+				</a> 
+			</div>
+			<div class="col-md-3 col-sm-3 col-xs-6 w3gallery-grids">
+				<a href="images/img4.jpg" class="imghvr-hinge-right figure">
+					<img src="images/img4.jpg" alt="" title="Smart Buzz Image"/> 
+					<div class="agile-figcaption">
+					  <h4>Smart Buzz</h4>
+					  <p>Phasellus elementum ullamcorper urna, eu rhoncus.</p>
+					</div>
+				</a> 
+			</div>-->
+			<div class="clearfix"> </div>
+			<script type="text/javascript" src=" js/simple-lightbox.min.js"></script>
+			<script>
+				$(function(){
+					var gallery = $('.agileinfo-gallery-row a').simpleLightbox({navText:		['&lsaquo;','&rsaquo;']});
+				});
+			</script>  
+		</div> 
+	</div>
+	</section>
+<!-- /Services Section -->
+<!-- Events -->
+<section class="our-events slideanim" id="events">
+	<h3 class="text-center slideanim">新闻动态</h3>
+	<p class="text-center slideanim">每一次动态都是进步</p>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-4">
+				<div class="event-info">
+					<h4 class="text-center slideanim" style="font-weight: bold;">撸起袖子加油干！</h4>
+					<p class="eve slideanim"><span style="font-size: 14px;">2017-11-21</span><br /> 陕西棱镜网络科技有限公司总经理李三强，作为宝鸡市民学习贯彻宣传党的十九大精神的代表人物，也作为宝鸡市的创业明星，他这样说道： 学习党的十九大报告最深刻的感受是，我们...</p>
+					<a href="news/index.html" style="text-decoration: none;font-weight: bold;font-size: 18px;margin-left: 15%;">MORE</a>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4">
+				<div class="event-info">
+					<h4 class="text-center slideanim" style="font-weight: bold;">2017年度公司成立两周年礼暨</h4>
+					<p class="eve slideanim"><span style="font-size: 14px;">2017-2-25</span><br />时光飞逝，岁月如梭，转眼间忙碌的2016年已过去，充满期待的2017年向我们走来。新的一年，孕育新的目标和希望。陕西棱镜网络科技有限公司2017年度公司成立...</p>
+					<a href="news/index.html" style="text-decoration: none;font-weight: bold;font-size: 18px;margin-left: 15%;">MORE</a>
+				</div>
+			</div>	
+			<div class="col-lg-4 col-md-4">
+				<div class="event-info">
+					<h4 class="text-center slideanim" style="font-weight: bold;">“棱镜”魅力绽放 “宝鸡市大学生优秀创业"</h4>
+					<p class="eve slideanim"><span style="font-size: 14px;">2017-1-21</span><br />2016年10月29日，宝鸡市大学生优秀创业项目成果展在宝鸡文理学院成功举办 。 此次展会共有 68家 企业参展，吸引了众多参观者前来驻足观摩，棱镜网络作为受邀展示的企业之一，展示...</p>
+					<a href="news/index.html" style="text-decoration: none;font-weight: bold;font-size: 18px;margin-left: 15%;">MORE</a>
+				</div>
+			</div>	
+		</div>
+	</div>
+</section>
+<!-- /Events -->
+<!-- Gallery Section -->
+<section class="our-gallery" id="gallery">
+	<h3 class="text-center slideanim" style="color: #000000;">经典案例</h3>
+	<p class="text-center slideanim" style="color: #000000;">每一个成功的案例都是我们的承诺</p>
+	
+	<div class="demo">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-6">
+				<div class="box">
+					<img src="images/img-3.jpg" alt="">
+					<div class="box-content">
+						<div class="content">
+							<h3 class="title">人工智能</h3>
+							<span class="post">开放式社区人工智能安保系统</span>
+							<ul class="icon">
+								<li><a href="anli/index.html"><i class="fa fa-link"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="box">
+					<img src="images/img-1.jpg" alt="">
+					<div class="box-content">
+						<div class="content">
+							<h3 class="title">中港物业</h3>
+							<span class="post">网站建设服务</span>
+							<ul class="icon">
+								<li><a href="anli/index.html"><i class="fa fa-link"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="box">
+					<img src="images/img-2.jpg" alt="">
+					<div class="box-content">
+						<div class="content">
+							<h3 class="title">采蜂网</h3>
+							<span class="post">网站建设服务</span>
+							<ul class="icon">
+								<li><a href="anli/index.html"><i class="fa fa-link"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-4 col-sm-6">
+				<div class="box">
+					<img src="images/xxx.jpg" alt="">
+					<div class="box-content">
+						<div class="content">
+							<h3 class="title">更新中......</h3>
+							<span class="post"></span>
+							<ul class="icon">
+								<li><a href="#"><i class="fa fa-link"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="box">
+					<img src="images/xxx.jpg" alt="">
+					<div class="box-content">
+						<div class="content">
+							<h3 class="title">更新中......</h3>
+							<span class="post"></span>
+							<ul class="icon">
+								<li><a href="#"><i class="fa fa-link"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="box">
+					<img src="images/xxx.jpg" alt="">
+					<div class="box-content">
+						<div class="content">
+							<h3 class="title">更新中......</h3>
+							<span class="post"></span>
+							<ul class="icon">
+								<li><a href="#"><i class="fa fa-link"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+
+</div>
+</section>
+<!-- /Gallery Section -->
+<!-- Testimonials -->
+<div id="team" class="team" style="padding-bottom: 100px;
+	background:url(images/test1.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	-moz-background-size:100% 100%;
+	-o-background-size:100% 100%;"
+	> 
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3 style="font-size:35px;font-weight:normal;padding:20px 0;font-family: 'Montserrat', sans-serif; text-align: center; color: white;">核心团队</h3>
+	<p style="font-size:18px;font-weight:300;padding:10px 0 50px; text-align: center; color: white;">专业的团队给您最专业的服务</p>
+				<div class="clearfix"> </div>
+			</div> 
+			<div class="team-row w3ls-team-row">  
+				<div class="col-md-3 col-sm-3 col-xs-6 team-grids">   
+					<div class="w3ls-effect">
+						<img src="images/t1.jpg" alt="img">
+						<div class="view-caption">
+							<h4 style="color: #000000;">总经理-李三强</h4> 
+						
+						</div>
+						
+					</div>    
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-6 team-grids">   
+					<div class="w3ls-effect">
+						<img src="images/t2.jpg" alt="img">
+						<div class="view-caption">
+							<h4 style="color: #000000;">总经理-谭婷</h4> 
+							
+						</div>
+						
+					</div>    
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-6 team-grids">   
+					<div class="w3ls-effect">
+						<img src="images/t3.jpg" alt="img">
+						<div class="view-caption">
+							<h4 style="color: #000000;">刘李洋（博士）</h4> 
+							
+						</div>
+						
+					</div>    
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-6 team-grids">   
+					<div class="w3ls-effect">
+						<img src="images/t4.jpg" alt="img">
+						<div class="view-caption">
+							<h4 style="color: #000000;"> 王  玮</h4> 
+							
+						</div>
+						
+					</div>    
+				</div>
+				<div class="clearfix"> </div> 
+			</div>
+		</div>
+	</div>
+<!-- Testimonials -->
+<!-- Contact Section -->
+<section id="fanwei" style="padding:100px 0;
+	background:url(images/contact.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:100% 100%;
+	-webkit-background-size:100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;">
+	<h3 style="font-size:35px;font-weight:normal;padding:20px 0;font-family: 'Montserrat', sans-serif; text-align: center; color: white;">服务范围</h3>
+	<p style="font-size:18px;font-weight:300;padding:10px 0 50px; text-align: center; color: white;">勇于创新，用心做好每一个项目</p>
+<!--服务范围-->
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<!--服务范围-->	
+	<script type="text/javascript">
+$(function(){
+    var tabNum=$(".important").find("li");
+    var contentNum=$(".contents").children();
+    var timer;
+    $(tabNum).each(function(index){
+        $(this).hover(function(){
+            var that=$(this)
+             timer=window.setTimeout(function(){
+                $(contentNum).eq(index).css({"display":"block"});
+                $(contentNum).eq(index).siblings().css({"display":"none"});
+                 that.find("a").css({"background":"#FFF","color":"#fff"});
+                 that.find("strong").show();
+                 that.siblings().find("strong").hide();
+                 that.siblings().find("a").css({"background":"#fff","color":"black"});
+            },1000)
+        },function(){
+            window.clearTimeout(timer);
+        })
+    })
+})
+</script>
+<!-- new -->
+<div>
+  <div class="w1200" style="width: 62%; margin: 0 auto;">
+		<ul class="important cl">
+   <li class="rcsp_1">
+    <a><span></span></a>
+    <p>日常审批</p>
+    <strong><i></i></strong>
+   </li>
+   <li class="rcsp_2">
+    <a><span></span></a>
+    <p>计划管理</p>
+    <strong style="display:none"><i></i></strong>
+   </li>
+   <li class="rcsp_3">
+    <a><span></span></a>
+    <p>知识管理</p>
+    <strong style="display:none"><i></i></strong>
+  </li>
+   <li class="rcsp_4">
+    <a><span></span></a>
+    <p>客户管理</p>
+    <strong style="display:none"><i></i></strong>
+  </li>
+   <li class="rcsp_5">
+    <a><span></span></a>
+    <p>合同管理</p>
+    <strong style="display:none"><i></i></strong>
+  </li>
+   <li class="rcsp_6">
+    <a><span></span></a>
+    <p>员工信息档案</p>
+    <strong style="display:none"><i></i></strong>
+  </li>
+   <li class="rcsp_7">
+    <a><span></span></a>
+    <p>招聘管理</p>
+    <strong style="display:none"><i></i></strong>
+  </li>
+   <li class="rcsp_8">
+    <a><span></span></a>
+    <p>薪酬管理</p>
+    <strong style="display:none"><i></i></strong>
+  </li>
+   <li class="rcsp_9">
+    <a><span></span></a>
+    <p>绩效管理</p>
+    <strong style="display:none"><i></i></strong>
+  </li>
+</ul>
+		<div class="contents">
+    <div class="cl">
+      <div class="important_l">
+        <a><img src="images/071146464hka.jpg"/></a>
+      </div>
+      <div class="important_r">
+         <div class="title_1">
+          <h3><span>DAILY</span> APPROVAL </h3>
+          <h2>日常审批<span>流程可视</span></h2>
+          <p class="p-1">梳理企业业务，简化审批流程，提高办公效率</p>
+         </div>
+         <div class="icon_top cl"><i class="i_left"></i><i class="i_right"></i></div>
+         <div class="study">
+          <h3>日常审批</h3>
+          <span><p><font size="2">日常审批覆盖了财务审批、人事审批（公出、请假、出差、加班）、行政审批（公文、用品、采购）、合同审批等多个工作场景，具有可视化流程和多种催办方式。</font></p></span> <img src="images/17092157z5yc.png"/>
+         </div>
+         <div class="icon_top cl" style="padding-top:0px;"><i class="i_left1"></i><i class="i_right1"></i></div>
+      </div>
+    </div>
+  <div class="cl" style="display: none">
+    <div class="important_l"><a><img src="images/170854226k8c.png"/></a></div>
+    <div class="important_r">
+      <div class="title_1">
+        <h3><span>PROGRAM</span> MANAGEMENT </h3>
+        <h2>计划管理<span>实时把控</span></h2>
+        <p class="p-1">工作计划轻松梳理，更可通过共享实现“协同办公”。</p>
+       </div>
+       <div class="icon_top cl"><i class="i_left"></i><i class="i_right"></i></div>
+       <div class="study">
+        <h3>计划管理</h3>
+        <span><p><span style="font-size: small;">计划管理分为&ldquo;个人/部门计划&rdquo;和&ldquo;日/周/月计划&rdquo;两个维度，可自定义计划模板，计划可共享，便于管控、总结、汇报。</span></p></span> <img src="images/17085113rcs3.png"/>
+       </div>
+       <div class="icon_top cl" style="padding-top:0px;"><i class="i_left1"></i><i class="i_right1"></i></div>
+       <!--div class="study"><a class="know" href="">对计划管理不了解？>点击了解</a></div-->
+    </div>
+  </div>
+                <div class="cl" style="display: none">
+    <div class="important_l"><a><img src="images/17085130oitn.jpg"/></a></div>
+    <div class="important_r">
+       <div class="title_1">
+          <h3><span>KNOWLEDGE</span> MANAGEMENT </h3>
+          <h2>知识管理<span>企业宝库</span></h2>
+          <p class="p-1">企业知识库持续积累，可进行知识采集发布，应对市场变化，做出正确决策</p>
+       </div>
+       <div class="icon_top cl"><i class="i_left"></i><i class="i_right"></i></div>
+       <div class="study">
+          <h3>知识管理</h3>
+          <span><p><span style="font-size: small;">知识管理可以对企业内的所有电子文档进行上传、分类管理、查询/借阅，包括个人网盘、公文文件柜和知识中心</span></p></span>
+      <img src="images/17085136g8gd.png"/>
+       </div>
+       <div class="icon_top cl" style="padding-top:0px;"><i class="i_left1"></i><i class="i_right1"></i></div>
+       <!--div class="study"><a class="know" href="">对知识管理不了解？>点击了解</a></div-->
+    </div>
+  </div>
+                <div class="cl" style="display: none">
+    <div class="important_l"><a><img src="images/17085153yh1h.jpg"/></a></div>
+    <div class="important_r">
+       <div class="title_1">
+          <h3><span>CUSTOMER</span> MANAGEMENT </h3>
+          <h2>客户管理<span>精准营销</span></h2>
+          <p class="p-1">有效记录和跟踪客户，管控销售过程，推进签单</p>
+       </div>
+       <div class="icon_top cl"><i class="i_left"></i><i class="i_right"></i></div>
+       <div class="study">
+          <h3>客户管理</h3>
+          <span><p><span style="font-size: small;">客户管理涵盖客户信息记录/提取、销售数据统计分析、商机追踪等功能，配备销售漏斗，为业务提供全程支持。</span></p></span>
+      <img src="images/170851595vrj.png"/>
+       </div>
+       <div class="icon_top cl" style="padding-top:0px;"><i class="i_left1"></i><i class="i_right1"></i></div>
+       <!--div class="study"><a class="know" href="">对客户管理不了解？>点击了解</a></div-->
+    </div>
+  </div>
+                <div class="cl" style="display: none">
+    <div class="important_l"><a><img src="images/170852357mmn.png"/></a></div>
+    <div class="important_r">
+       <div class="title_1">
+          <h3><span>CONTRACT</span> MANAGEMENT </h3>
+          <h2>合同管理<span>缜密清晰</span></h2>
+          <p class="p-1">帮你做好合同管理工作的方方面面</p>
+       </div>
+       <div class="icon_top cl"><i class="i_left"></i><i class="i_right"></i></div>
+       <div class="study">
+          <h3>合同管理</h3>
+          <span><p><span style="font-size: small;">合同评审、签订、归档、变更、交付、违约全方位管控，让您的合同管理360度无死角！</span></p></span>
+      <img src="images/17085243mni6.png"/>
+       </div>
+       <div class="icon_top cl" style="padding-top:0px;"><i class="i_left1"></i><i class="i_right1"></i></div>
+       <!--div class="study"><a class="know" href="">对合同管理不了解？>点击了解</a></div-->
+    </div>
+  </div>
+                <div class="cl" style="display: none">
+    <div class="important_l"><a><img src="images/17085256xhlm.png"/></a></div>
+    <div class="important_r">
+       <div class="title_1">
+          <h3><span>PERSONNAL</span> FILES </h3>
+          <h2>人事信息<span>管理无忧</span></h2>
+          <p class="p-1">人事信息多维度展现，可自定义模板，灵活便捷</p>
+       </div>
+       <div class="icon_top cl"><i class="i_left"></i><i class="i_right"></i></div>
+       <div class="study">
+          <h3>员工信息档案</h3>
+          <span><p><span style="font-size: small;">实现对人员信息档案的记录、查询，可展现组织架构，可进行员工报道激活，也可以生成照片墙，为人力资源管理工作铺好基石。</span></p></span> <img src="images/17085308kw67.png"/>
+       </div>
+       <div class="icon_top cl" style="padding-top:0px;"><i class="i_left1"></i><i class="i_right1"></i></div>
+       <!--div class="study"><a class="know" href="">对员工档案不了解？>点击了解</a></div-->
+    </div>
+  </div>
+                <div class="cl" style="display: none">
+    <div class="important_l"><a><img src="images/17091705h84f.png"/></a></div>
+    <div class="important_r">
+       <div class="title_1">
+          <h3><span>RECRUITING</span> MANAGEMENT </h3>
+          <h2>招聘管理<span>高效快速</span></h2>
+          <p class="p-1">人力资源优化配置的助推器</p>
+       </div>
+       <div class="icon_top cl"><i class="i_left"></i><i class="i_right"></i></div>
+       <div class="study">
+          <h3>招聘管理</h3>
+          <span><p><span style="font-size: small;">可记录分析招聘需求、发布招聘计划、简历采集甄选、协助HR面试，规范招聘工作全流程。</span></p></span>
+      <img src="images/170917105dqs.png"/>
+       </div>
+       <div class="icon_top cl" style="padding-top:0px;"><i class="i_left1"></i><i class="i_right1"></i></div>
+       <!--div class="study"><a class="know" href="">对招聘管理不了解？>点击了解</a></div-->
+    </div>
+  </div>
+                <div class="cl" style="display: none">
+    <div class="important_l"><a><img src="images/17091755q1f1.png"/></a></div>
+    <div class="important_r">
+       <div class="title_1">
+          <h3><span>SALARY</span> MANAGEMENT </h3>
+          <h2>薪酬管理<span>易如反掌</span></h2>
+          <p class="p-1">薪资发放调整都有据可循</p>
+       </div>
+       <div class="icon_top cl"><i class="i_left"></i><i class="i_right"></i></div>
+       <div class="study">
+          <h3>薪酬管理</h3>
+          <span><p><span style="font-size: small;">提供薪资体系/标准设置、薪资计算、薪资发放记录查询、薪资记录调整查询等功能</span></p></span>
+      <img src="images/17091801zica.png" />
+       </div>
+       <div class="icon_top cl" style="padding-top:0px;"><i class="i_left1"></i><i class="i_right1"></i></div>
+       <!--div class="study"><a class="know" href="">对薪酬管理不了解？>点击了解</a></div-->
+    </div>
+  </div>
+                <div class="cl" style="display: none">
+    <div class="important_l"><a><img src="images/17091816zslw.png"/></a></div>
+    <div class="important_r">
+       <div class="title_1">
+          <h3><span>PERFORMANCE</span> MANAGEMENT </h3>
+          <h2>绩效管理<span>轻松实现</span></h2>
+          <p class="p-1">在这里，部门职能差异不是制定考核标准的难点。</p>
+       </div>
+       <div class="icon_top cl"><i class="i_left"></i><i class="i_right"></i></div>
+       <div class="study">
+          <h3>绩效管理</h3>
+          <span><p><span style="font-size: small;">可按照月度/年度、个人/部门等多个维度进行绩效考核，综合员工业务行为数据进行分析，不仅使团队短板一目了然，还可以为制定考核标准提供依据。</span></p></span>
+      <img src="images/17091821ne9m.png"/>
+       </div>
+       <div class="icon_top cl" style="padding-top:0px;"><i class="i_left1"></i><i class="i_right1"></i></div>
+
+    </div>
+  </div>
+
+</div>
+	</div>
+</div>
+
+</div>
+	</div>
+</div>
+	
+</section>
+<!-- /Contact Section -->
+<!-- Footer Section -->
+<section class="footer" id="contact">
+	<h2 class="text-center" style="font-weight: bold;font-size: 50px;">创     意     赢     得     未     来</h2>
+	<hr>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 footer-left">
+				<h4>联系我们</h4>
+				<div class="contact-info">
+					<div class="address">	
+						<!--<i class="glyphicon glyphicon-globe"></i>-->
+						<p class="p3" style="padding-top: 30px;">地址：<br/>宝鸡市高新区高新大道195号科技创新园C座3楼</p>
+						<!--<p class="p4">Chicago, USA</p>-->
+					</div>
+					<div class="phone">
+						<!--<i class="glyphicon glyphicon-phone-alt"></i>-->
+						<p class="p3" style="padding-top: 60px;">电话：<br/>研发部：0917-2600026/ 0917-2600999
+						<br/>市场部：0917-2600028 / 0917-2600666</p>
+						
+					</div>
+					<div class="email-info">
+						<!--<i class="glyphicon glyphicon-envelope"></i>-->
+						<p class="p3" style="padding-top: 60px;">邮箱：13599000@qq.com
+						<br/>传真：0917-3372066</p> 
+						
+					</div>
+				</div>
+			</div><!-- col -->
+			<div class="col-md-4 footer-center">
+				<h4>反馈建议</h4>
+				<p>您的建议让我们不断进步</p>
+				<form class="form-horizontal" role="form">
+					<div class="form-group">
+						<label for="inputEmail1" class="col-lg-4 control-label"></label>
+						<div class="col-lg-10">
+							<input type="email" class="form-control" id="inputEmail1" placeholder="Email" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="text1" class="col-lg-4 control-label"></label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="text1" placeholder="Your Name" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-lg-10">
+							<button type="submit" class="btn-outline">提交</button>
+						</div>
+					</div>
+				</form><!-- form -->
+			</div><!-- col -->
+			<div class="col-md-4 footer-right">
+				<h4>关注微信&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关注微博</h4>
+				<p><img src="images/wx.png" style="padding: 2px;" /><img src="images/wx.png" style="padding: 2px;" /></p>
+				<ul class="social-icons2">
+					<li><a href="about.html"><i class="fa fa-face">关于我们</i></a></li>
+					<li><a href="news/index.html"><i class="fa fa-twi">新闻动态</i></a></li>
+					<li><a href="zxns.html"><i class="fa fa-lin">招贤纳士</i></a></li>
+					<li><a href="contents/index.html"><i class="fa fa-goo">联系我们</i></a></li>
+				</ul>
+			</div><!-- col -->
+		</div><!-- row -->
+	</div><!-- container -->
+	<hr>
+	<div class="copyright">
+		<p>Copyright 2015-2018 宝鸡棱镜网络科技有限公司 © 版权所有</p>
+		<div class="footRight" style="color:#ffffff; text-align: center; margin-top: 10px; margin-bottom: 10px;"><a href="http://www.miitbeian.gov.cn" target="_blank" style="color:#ffffff; font-size: 16px;" >ICP备案/许可证号： 陕ICP备16018191号-17</a></div>
+		<div style="width:300px;margin:0 auto; ">
+		 		      <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=61030202000370 
+
+                              " style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                               <img src="a_img/beiantubiao.png" style="float:left;"/><p style="float:left;height:10px;line-height:10px;margin: 0px 0px 0px 5px; color:#FFFFFF;">陕公网安备 61030202000370号</p></a>
+		<p>
+					<a target="_blank" href="http://wljg.snaic.gov.cn/ei/Ei!certificate.action?id=402881cb63ad6c7c0163af42ad340017" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+                               			<img src="images/ei_normal.png"style=";"/>
+					</a>
+				</p> 	
+		</div>	
+	
+	</div>
+
+</section>
+<!-- /Footer Section -->
+<!-- Back To Top -->
+
+<div class="suspension">
+	<div class="suspension-box">
+		<a href="#" class="a a-service "><i class="i"></i></a>
+		<a href="javascript:;" class="a a-service-phone "><i class="i"></i></a>
+		<a href="javascript:;" class="a a-qrcode"><i class="i"></i></a>
+		<a href="javascript:;" class="a a-top"><i class="i"></i></a>
+		<div class="d d-service">
+			<i class="arrow"></i>
+			<div class="inner-box">
+				<div class="d-service-item clearfix">
+					<a href="tencent://message/?uin=13599000" class="clearfix"><span class="circle"><i class="i-qq"></i></span><h3>13599000</h3></a>
+				</div>
+			</div>
+		</div>
+		<div class="d d-service-phone">
+			<i class="arrow"></i>
+			<div class="inner-box">
+				<div class="d-service-item clearfix">
+					<span class="circle"><i class="i-tel"></i></span>
+					<div class="text">
+						<p>服务热线</p>
+						<p class="red number">09172600026</p>
+						<p class="red number">09172600666</p>
+						<p class="red number">09172600999</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="d d-qrcode">
+			<i class="arrow"></i>
+			<div class="inner-box">
+				<div class="qrcode-img"><img src="images/wx.png" alt=""></div>
+				<p>微信服务号</p>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+	/* ----- 侧边悬浮 ---- */
+	$(document).on("mouseenter", ".suspension .a", function(){
+		var _this = $(this);
+		var s = $(".suspension");
+		var isService = _this.hasClass("a-service");
+		var isServicePhone = _this.hasClass("a-service-phone");
+		var isQrcode = _this.hasClass("a-qrcode");
+		if(isService){ s.find(".d-service").show().siblings(".d").hide();}
+		if(isServicePhone){ s.find(".d-service-phone").show().siblings(".d").hide();}
+		if(isQrcode){ s.find(".d-qrcode").show().siblings(".d").hide();}
+	});
+	$(document).on("mouseleave", ".suspension, .suspension .a-top", function(){
+		$(".suspension").find(".d").hide();
+	});
+	$(document).on("mouseenter", ".suspension .a-top", function(){
+		$(".suspension").find(".d").hide(); 
+	});
+	$(document).on("click", ".suspension .a-top", function(){
+		$("html,body").animate({scrollTop: 0});
+	});
+	$(window).scroll(function(){
+		var st = $(document).scrollTop();
+		var $top = $(".suspension .a-top");
+		if(st > 400){
+			$top.css({display: 'block'});
+		}else{
+			if ($top.is(":visible")) {
+				$top.hide();
+			}
+		}
+	});
+	
+});	
+</script>
+<!-- /Back To Top -->
+
+<!-- js files -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/SmoothScroll.min.js"></script>
+<!-- js for gallery -->
+<script src="js/darkbox.js"></script>
+<!-- /js for gallery -->
+<!-- js for back to top -->
+<script src="js/main.js"></script>
+<!-- /js for back to top -->
+<!-- js for nav-smooth scroll -->
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+  // Store hash
+  var hash = this.hash;
+
+  // Using jQuery's animate() method to add smooth page scroll
+  // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+  $('html, body').animate({
+    scrollTop: $(hash).offset().top
+  }, 900, function(){
+
+    // Add hash (#) to URL when done scrolling (default click behavior)
+    window.location.hash = hash;
+    });
+  });
+})
+</script>
+<!-- /js for nav-smooth scroll -->
+<!-- js for slide animations -->
+<script>
+$(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide");
+    }
+  });
+});
+</script>
+<!-- /js for slide animations -->
+<!-- /js files -->
+</body>
+</html>

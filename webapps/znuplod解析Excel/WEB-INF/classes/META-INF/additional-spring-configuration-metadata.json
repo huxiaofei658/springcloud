@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "config.groupid",
+      "type": "java.lang.String",
+      "description": "Description for config.groupid."
+  }
+] }

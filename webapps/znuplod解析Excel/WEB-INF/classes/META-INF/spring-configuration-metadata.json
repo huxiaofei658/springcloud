@@ -1,0 +1,117 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "cn.uplod.uplod.util.config.Config",
+      "name": "config",
+      "type": "cn.uplod.uplod.util.config.Config"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.ExcelConfig",
+      "name": "config.excelConfig",
+      "type": "cn.uplod.uplod.util.config.ExcelConfig"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.FaceConfig",
+      "name": "config.faceConfig",
+      "type": "cn.uplod.uplod.util.config.FaceConfig"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.TemplateConfig",
+      "name": "config.templateConfig",
+      "type": "cn.uplod.uplod.util.config.TemplateConfig"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.TestConfig",
+      "name": "config.test",
+      "type": "cn.uplod.uplod.util.config.TestConfig"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.TokenConfig",
+      "name": "config.tokenConfig",
+      "type": "cn.uplod.uplod.util.config.TokenConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "cn.uplod.uplod.util.config.ExcelConfig",
+      "name": "config.excelConfig.pic-link",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.FaceConfig",
+      "name": "config.faceConfig.a-k",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.FaceConfig",
+      "name": "config.faceConfig.group-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.FaceConfig",
+      "name": "config.faceConfig.s-k",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.FaceConfig",
+      "name": "config.faceConfig.score",
+      "type": "java.lang.Double"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.FaceConfig",
+      "name": "config.faceConfig.url",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "name": "config.groupid",
+      "description": "Description for config.groupid.",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.TemplateConfig",
+      "name": "config.templateConfig.exclude-path",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.TemplateConfig",
+      "name": "config.templateConfig.placeholder",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.TemplateConfig",
+      "name": "config.templateConfig.token",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.TemplateConfig",
+      "name": "config.templateConfig.url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.TestConfig",
+      "name": "config.test.phones",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.TokenConfig",
+      "name": "config.tokenConfig.exclude-path",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.TokenConfig",
+      "name": "config.tokenConfig.head-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.TokenConfig",
+      "name": "config.tokenConfig.issuer",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.uplod.uplod.util.config.Config",
+      "name": "config.upload",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    }
+  ]
+}

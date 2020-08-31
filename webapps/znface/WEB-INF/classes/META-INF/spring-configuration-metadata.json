@@ -1,0 +1,108 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.Config",
+      "name": "config",
+      "type": "cn.prism.face.utils.config.bean.Config"
+    },
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.UdpConfig",
+      "name": "config.udp",
+      "type": "cn.prism.face.utils.config.bean.UdpConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.Config",
+      "name": "config.c-r-u-d",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.Config",
+      "name": "config.file",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.Config",
+      "name": "config.look",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.Config",
+      "defaultValue": 0,
+      "name": "config.min-dpi",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.Config",
+      "name": "config.score",
+      "type": "java.lang.Double"
+    },
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.Config",
+      "name": "config.temp-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.Config",
+      "name": "config.token",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.Config",
+      "name": "config.token-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.Config",
+      "name": "config.udp-config",
+      "type": "cn.prism.face.utils.config.bean.UdpConfig"
+    },
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.UdpConfig",
+      "defaultValue": 0,
+      "name": "config.udp.client-port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.UdpConfig",
+      "name": "config.udp.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.UdpConfig",
+      "defaultValue": 0,
+      "name": "config.udp.packet-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.UdpConfig",
+      "defaultValue": 0,
+      "name": "config.udp.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.UdpConfig",
+      "name": "config.udp.server-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.UdpConfig",
+      "defaultValue": 0,
+      "name": "config.udp.timeout",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.UdpConfig",
+      "defaultValue": 0,
+      "name": "config.udp.wait-port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "cn.prism.face.utils.config.bean.Config",
+      "name": "config.uplod",
+      "type": "java.lang.String"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试WebSocket</title>
+</head>
+<body>
+<input type="text" >
+<input type="button" onclick="send()">
+<script>
+    var wsServer = 'ws://www.prismnetwork.cn:8888/PrismNetworkIM?uid=59b3c5e3ed5e691e24793a29&groupid=alarm_monitor'; //服务器地址
+    var websocket = new WebSocket(wsServer); //创建WebSocket对象
+    function send() {
+        var m=document.getElementsByTagName('input')[0].value;
+        console.log(m);
+        websocket.send(m);
+
+    }
+
+    //websocket.send("hello");//向服务器发送消息
+    alert(websocket.readyState);//查看websocket当前状态
+    websocket.onopen = function (evt) {
+        alert(2555);
+//已经建立连接
+    };
+    websocket.onclose = function (evt) {
+//已经关闭连接
+    };
+    websocket.onmessage = function (evt) {
+        alert(evt.data);
+//收到服务器消息，使用evt.data提取
+    };
+    websocket.onerror = function (evt) {
+        alert(evt.data);
+
+//产生异常
+    };
+
+</script>
+</body>
+</html>

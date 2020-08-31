@@ -1,0 +1,8 @@
+config:
+  udp: #人脸识别服务配置,该服务基于udp实现
+    host: 127.0.0.1 #服务端地址
+    port: 999 #服务端端口
+    clientPort: 666 #接收识别结果端口
+    waitPort: 555 #等待服务端通知端口
+    timeout: 300000 #等待识别结果超时(毫秒)
+    #serverPath: /usr/java/faceServer.jar #服务程序地址,用于启动服务

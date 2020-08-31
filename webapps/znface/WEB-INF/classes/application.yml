@@ -1,0 +1,29 @@
+spring:
+  data:
+    mongodb:
+      host: 111.21.158.98
+      port: 27888
+      database: PrismNetwork
+      username: Prism
+      password: Prism
+  http:
+    multipart:
+        max-file-size: 10MB
+        max-request-size: 100MB
+  profiles:
+    active: prod
+
+config:
+  tokenName: token
+  token: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJjbGllbnQiLCJpYXQiOjMwLCJzdWIiOiJjKysmamF2YSIsImlzcyI6IuajsemVnOe9kee7nCIsImV4cCI6MjQ5MjM4ODIwNH0.i-9IzKdd5L0uFXqZbLsKfeikT-ab6RzRMSyr4qVVBxI
+  CRUD: http://localhost:8082/zncomm/ws/common/
+  file: https://www.prismnetwork.cn/znuplod/file/
+  look: https://www.prismnetwork.cn/znuplod/static/uplod/
+  uplod: https://www.prismnetwork.cn/znuplod/
+  tempPath: /prism/temp/
+  score: 0.7
+  udp: #人脸识别服务配置,该服务基于udp实现
+   packetSize: 1024 #单包大小,单位byte
+  pic:
+    minWidth: 150 #照片最窄要求(单位:px)
+    minHeight: 200 #照片最低高度要求(单位:px)

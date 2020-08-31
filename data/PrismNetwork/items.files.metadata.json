@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"PrismNetwork.items.files"}],"uuid":"28bceb9e32b74e32a78ec3acb4b03903"}

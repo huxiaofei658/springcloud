@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"PrismNetwork.zn_Equipment"}],"uuid":"3df8bab6ae43481bb7fc315f774fe345"}

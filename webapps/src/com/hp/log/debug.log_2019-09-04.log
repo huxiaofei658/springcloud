@@ -1,0 +1,18 @@
+2019-09-04 11:34:12 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:27) ]
+INFO:算法库加载成功
+2019-09-04 11:34:15 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:58) ]
+INFO:第1次加载数据库
+2019-09-04 11:34:29 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:61) ]
+INFO:第1次加载成功,耗时13秒
+2019-09-04 11:34:29 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:64) ]
+INFO:---------------------------------------
+2019-09-04 11:34:29 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:70) ]
+INFO:host:127.0.1.1
+2019-09-04 11:34:29 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:71) ]
+INFO:port:9999
+2019-09-04 11:34:29 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:73) ]
+INFO:服务已启动....
+2019-09-04 11:34:29 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:74) ]
+INFO:---------------------------------------
+2019-09-04 11:34:29 AM [Thread: main][ Class:cn.prism.face.Main >> Method: cn.prism.face.Main.main(Main.java:81) ]
+INFO:等待数据........
